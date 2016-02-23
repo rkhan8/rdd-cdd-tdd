@@ -43,7 +43,7 @@ To install these packages, we have to go into **weather** repository and execute
 
 This document is the main page of the project. It shows the forecast information.
 
-> npm install
+![](current.jpg)
 
 
 #### Step 3 - Write config.js document
@@ -86,3 +86,26 @@ function automatic(ip, callback, units, args)
 	...
 }
 ```
+
+#### Step 5 - Write data.js document
+
+Set forecast information
+
+```
+function collectPrecip(data)
+{
+	...
+}
+
+function formatTime(date)
+{
+	...
+}
+
+function collectSunrises(data)
+{
+	...
+}
+```
+
+#### Step 6 - Write format.js document
