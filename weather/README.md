@@ -20,8 +20,11 @@ The program gets automatically our location by Ip Address. **online!**
 
 ### Just tell me what to do
 1.Fork the project https://github.com/92bondstreet/rdd-cdd-tdd via github
+
 2.Clone the project git clone https://github.com/YOUR_USERNAME/rdd-cdd-tdd
+
 3.Follow the steps.
+
 4.Don't forget to commit and push
 
 ### Steps to do
