@@ -27,6 +27,7 @@ The program gets automatically our location by Ip Address. **online!**
 5. Don't forget to commit and push
 
 
+
 ### Steps to do
 
 
@@ -36,3 +37,30 @@ All packages for the project are defined into the file **package.json**.
 To install these packages, we have to go into **weather** repository and execute the command :
 
 > npm install
+
+
+#### Step 2 - Write index.js document
+
+This document is the main page of the project. It shows the forecast information.
+
+> npm install
+
+
+#### Step 3 - Write config.js document
+
+Get or write the location configuration
+
+> function write(args, units, ip)
+> {
+> fs.writeFile(path, JSON.stringify(args, null, 2), function (err) {
+> ...
+> });
+> }
+
+
+> function read(args, units, ip) {
+> if (args.c && !(args.s || args.save)) { handleArgs(args, units, ip);}
+> else {
+> ....
+>        }
+>}
