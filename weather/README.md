@@ -18,16 +18,21 @@ The program gets automatically our location by Ip Address. **online!**
 > - User has to be connected to get forecast
 > - User has to launch the file **index.js**
 
+
 ### Just tell me what to do
-1.Fork the project https://github.com/92bondstreet/rdd-cdd-tdd via github
+1. Fork the project https://github.com/92bondstreet/rdd-cdd-tdd via github
+2. Clone the project git clone https://github.com/YOUR_USERNAME/rdd-cdd-tdd
+3. Install NodeJS
+4. Follow the steps.
+5. Don't forget to commit and push
 
-2.Clone the project git clone https://github.com/YOUR_USERNAME/rdd-cdd-tdd
-
-3.Follow the steps.
-
-4.Don't forget to commit and push
 
 ### Steps to do
 
 
 #### Step 1 - Install packages
+
+All packages for the project are defined into the file **package.json**.
+To install these packages, we have to go into **weather** repository and execute the command :
+
+> npm install
