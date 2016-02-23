@@ -43,7 +43,7 @@ To install these packages, we have to go into **weather** repository and execute
 
 This document is the main page of the project. It shows the forecast information.
 
-![](current.jpg)
+![](current.png)
 
 
 #### Step 3 - Write config.js document
