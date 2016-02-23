@@ -109,3 +109,16 @@ function collectSunrises(data)
 ```
 
 #### Step 6 - Write format.js document
+
+This document has to show the forecast information
+
+#### Step 7 - Write help.js document
+
+This document will inform how to use the program **index.js**
+
+```
+function help(args)
+{
+	...
+}
+```
