@@ -49,18 +49,40 @@ This document is the main page of the project. It shows the forecast information
 #### Step 3 - Write config.js document
 
 Get or write the location configuration
+```
+function write(args, units, ip)
+{
+fs.writeFile(path, JSON.stringify(args, null, 2), function (err) {
+...
+    });
+}
 
-> function write(args, units, ip)
-> {
-> fs.writeFile(path, JSON.stringify(args, null, 2), function (err) {
-> ...
-> });
-> }
 
+function read(args, units, ip) {
+if (args.c && !(args.s || args.save)) { handleArgs(args, units, ip);}
+else {
+...
+  }
+}
+```
 
-> function read(args, units, ip) {
-> if (args.c && !(args.s || args.save)) { handleArgs(args, units, ip);}
-> else {
-> ....
->        }
->}
+#### Step 4 - Write args.js document
+
+Initialize the result for the location by http request
+
+```
+function weatherRequest(location, units, args)
+{
+	...
+}
+
+function address(addr, callback, units, args)
+{
+	...
+}
+
+function automatic(ip, callback, units, args)
+{
+	...
+}
+```
