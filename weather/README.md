@@ -10,13 +10,30 @@ Show the weather prediction !
 Introduction
 -------------
 
-This program is used to predict the forecast for the next 3 days.
+This program is used to predict the forecast for the next 4 days.
 The program gets automatically our location by Ip Address. **online!**
 
 > **Note:**
 
 > - User has to be connected to get forecast
 > - User has to launch the file **index.js**
+
+### Usage
+
+The different usage of the program :
+> **Get weather by our position**
+> node index.js
+>
+>**Get weather by address**
+>node index.js -a --myaddress
+>
+> **Get weather by GPS position**
+> node index.js --lat=34.1036 --long=-84.6374
+>  
+>  **Change the metric unit**
+>  node index.js -c --C
+
+
 
 
 ### Just tell me what to do
@@ -122,3 +139,10 @@ function help(args)
 	...
 }
 ```
+
+When user execute the command :
+> node index.js -help
+
+It will show all possible usages of the program
+
+![](command.png)
