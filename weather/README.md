@@ -10,7 +10,7 @@ Show the weather prediction !
 Introduction
 -------------
 
-This program is used to predict the forecast for the next 3 days.
+This program is used to forecast the weather for the next 3 days.
 The program gets automatically our location by Ip Address. **online!**
 
 > **Note:**
